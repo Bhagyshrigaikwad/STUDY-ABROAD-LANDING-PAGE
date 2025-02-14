@@ -80,5 +80,5 @@ The design follows a **clean, modern, and professional** layout with:
 4. Deploy using a hosting service like **Netlify or GitHub Pages** for accessibility.
 
 ## Conclusion
-This landing page serves as an effective tool for **generating leads for MBBS abroad programs** while ensuring an **engaging and informative user experience**. The implementation of **SEO, responsiveness, and modern UI design** enhances its effectiveness and reach. Further development can include **backend integration for form submission handling** and **real-time chat support** to improve student engagement.
+This landing page serves as an effective tool for **generating leads for MBBS abroad programs** while ensuring an **engaging and informative user experience**. The implementation of **SEO, responsiveness, and modern UI design** enhances its effectiveness and reach. Further development can include **backend integration for form submission handling** and **real-time  support** to improve student engagement.
 
