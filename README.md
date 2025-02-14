@@ -1,4 +1,4 @@
-# STUDY-ABROAD-LANDING-PAGE
+
 Responsive Landing page for study MBBS Abroad, Featuring country listings ,program details and a lead generation form...
 
 # Study MBBS Abroad - Landing Page
@@ -74,7 +74,7 @@ The design follows a **clean, modern, and professional** layout with:
 ## Setup Instructions
 1. **Clone the Repository:**
    ```sh
-   git clone 
+   git clone https://github.com/Bhagyshrigaikwad/STUDY-ABROAD-LANDING-PAGE/edit/main/README.md
 2. **Open index.html** in a web browser.
 3. Make sure all linked assets (CSS, JS, Images) are in the same directory.
 4. Deploy using a hosting service like **Netlify or GitHub Pages** for accessibility.
