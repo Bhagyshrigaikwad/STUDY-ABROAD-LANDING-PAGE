@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, rgba(169, 18, 106, 0.5), rgba(189, 184, 15, 0.3));
+    scroll-behavior: smooth;
+}
+
+header {
+    /* background: #007bff; */
+    background: linear-gradient(135deg, rgba(169, 18, 106, 0.5), rgba(189, 184, 15, 0.3));
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('study4.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px) opacity(0.3);
+    z-index: -1;
+}
+
+#countries .flag {
+    width: 80px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+form {
+
+    max-width: 400px;
+    margin: auto;
+    /* background: rgba(15, 110, 154, 0.1); */
+    /* background: linear-gradient(to right,rgb(42, 42, 62),rgb(72, 118, 72),rgb(52, 102, 121) opacity=0.1); */
+    background: linear-gradient(135deg, rgba(169, 18, 106, 0.5), rgba(189, 184, 15, 0.3));
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(5, 129, 135, 0.8);
+}
+
+input,
+select,
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #07a355;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(135deg, rgba(169, 18, 106, 0.5), rgba(189, 184, 15, 0.3));
+}
+
+button:hover {
+    color: black;
+    background-color: #158a97;
+}
+
+#moving-typewriter {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2c3e50;
+    animation: move 10s ease-in-out infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #2c3e50;
+    /* Cursor effect */
+    padding-right: 5px;
+}
+
+.highlight {
+    color: purple;
+    font-style: italic;
+}
+
+.moving-heading {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color: #2c3e50;
+    animation: move 3s ease-in-out infinite;
+}
+
+/* Keyframes for the movement */
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(5px);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(3px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+h2:hover {
+    color: purple;
+}
+
+.div img {
+
+    border-radius: 50%;
+
+
+}
+
+/* footer */
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background: #4a4a4a;
+
+
+
+}
+
+footer .contact,
+footer .countries,
+footer .important-links,
+footer .abroad {
+    padding: 5px;
+    flex: 1 1 20%;
+    background-color: #4a4a4a;
+}
+
+footer h2 {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+footer .contact li:hover {
+    text-decoration: none;
+}
+
+footer .contact li span {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+footer li {
+    color: #eee;
+    list-style: none;
+    padding: 5px 0;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer .abroad li:hover {
+    text-decoration: none;
+}
+
+footer .abroad li span {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+footer .copy {
+    width: 100%;
+    padding: 10px 0;
+    text-transform: capitalize;
+    text-align: center;
+    color: #eee;
+}
+
+footer .copy span {
+
+    font-weight: 600;
+}
+
+footer .copy hr {
+    margin-bottom: 5px;
+}
+
+@keyframes colorChange {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: red; }
+}
+
+#text {
+    font-weight: bold;
+    font-size: 24px;
+    animation: colorChange 3s infinite; /* Animation repeats every 3 seconds */
+}
