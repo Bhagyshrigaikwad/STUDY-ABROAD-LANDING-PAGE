@@ -1,0 +1,164 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad</title>
+    <meta name="description"
+        content="Study MBBS abroad in top countries like Russia, Uzbekistan, Kazakhstan, and the Philippines. Get affordable education with global recognition. Apply now!">
+    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1 style="color: purple;">Study MBBS Abroad</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#benefits">Why MBBS Abroad</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#countries">Top Countries</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#admission-process">Admission Process</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contact">Apply Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="text-center py-5 bg-light">
+        <h2 id="moving-typewriter"></h2>
+        <p id="text">Explore top medical universities and achieve your dream of becoming a doctor.</p>
+        <button class="btn btn-primary" onclick="scrollToSection('contact')">Get Started</button>
+    </section>
+
+    <section id="benefits" class="py-5 container">
+        <h2>Why Study MBBS Abroad?</h2>
+        <ul>
+            <li>Affordable tuition fees</li>
+            <li>High-quality education</li>
+            <li>Global recognition of degrees</li>
+            <li>Exposure to diverse cultures</li>
+        </ul>
+    </section>
+
+    <section id="countries" class="py-5 container">
+        <h2 class="moving-heading">Top Countries for MBBS</h2>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img src="russia.jpeg" alt="Russia" class="img-fluid flag">
+                <h3>Russia</h3>
+            </div>
+            <div class="col-md-3">
+                <img src="uzebiksthan.jpeg" alt="Uzbekistan" class="img-fluid flag">
+                <h3>Uzbekistan</h3>
+            </div>
+            <div class="col-md-3">
+                <img src="kazakhstan.jpeg" alt="Kazakhstan" class="img-fluid flag">
+                <h3>Kazakhstan</h3>
+            </div>
+            <div class="col-md-3">
+                <img src="philippines.jpeg" alt="Philippines" class="img-fluid flag">
+                <h3>Philippines</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="admission-process" class="py-5 container">
+        <h2>Admission Process & Eligibility</h2>
+        <ol>
+            <li>Submit application</li>
+            <li>Receive admission letter</li>
+            <li>Apply for a visa</li>
+            <li>Start your journey</li>
+        </ol>
+        <p><strong>Eligibility Criteria:</strong></p>
+        <ul>
+            <li>Minimum age: 17 years</li>
+            <li>50%+ marks in 12th grade with Physics, Chemistry, and Biology</li>
+            <li>MCAT/NEET/Country-specific entrance test scores</li>
+            <li>Proof of language proficiency (TOEFL, IELTS, etc.)</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="py-5 container bg-light">
+        <h2>Apply Now</h2>
+        <form id="leadForm">
+            <img src="study3.jpg" alt="Study MBBS" class="img-fluid mb-3">
+            <input type="text" placeholder="Your Name" required class="form-control mb-2">
+            <input type="email" placeholder="Your Email" required class="form-control mb-2">
+            <input type="tel" placeholder="Your Phone" required class="form-control mb-2">
+            <select required class="form-control mb-3">
+                <option value="">Select Your Preferred Country</option>
+                <option value="Russia">Russia</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Philippines">Philippines</option>
+            </select>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-4">
+        <h3>Questions? Call 000-000-000-0000</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Countries</h4>
+                    <ul>
+                        <li>Study in Uzbekistan</li>
+                        <li>Study in Russia</li>
+                        <li>Study in Kazakhstan</li>
+                        <li>Study in Philippines</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Services We Offer</h4>
+                    <ul>
+                        <li>Medical</li>
+                        <li>NEET</li>
+                        <li>MCI SCREEING Test</li>
+                        <li>About us</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Why MBBS Abroad?</h4>
+                    <ul>
+                        <li>Introduction</li>
+                        <li>Learn Everywhere</li>
+                        <li>Modern Curriculum</li>
+                        <li>Placement Assistance</li>
+                        <li>Eligibility</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><strong>Address:</strong> Chatrapati Sambhajinagar</li>
+                        <li><strong>Email:</strong> studyabroad@university.com</li>
+                        <li><strong>Phone:</strong> (0741)-32146541</li>
+                        <li><strong>Mobile:</strong> +91 9856798542</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="copy">&copy; 2025 Designed by Bhagyashri Gaikwad. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        const text = "Apply Now for MBBS Abroad";
+        let index = 0;
+        let isDeleting = false;
+        function typewriterEffect() {
+            document.getElementById("moving-typewriter").textContent = text.substring(0, index);
+            index = isDeleting ? index - 1 : index + 1;
+            if (index === text.length + 1) isDeleting = true;
+            else if (index === 0) isDeleting = false;
+            setTimeout(typewriterEffect, isDeleting ? 100 : 150);
+        }
+        typewriterEffect();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
